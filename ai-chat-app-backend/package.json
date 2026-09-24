@@ -1,0 +1,22 @@
+{
+  "name": "ai-chat-app-backend",
+  "version": "1.0.0",
+  "description": "Chat app backend server with AI integration",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch --env-file=.env server.js",
+    "start": "node --env-file=.env server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^2.19.0",
+    "compute-cosine-similarity": "^1.1.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "openai": "^7.17.0"
+  }
+}
